@@ -3,12 +3,23 @@
   padding: 0px;
 }
 
+body {
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  height: 100vh;
+  color: white;
+}
+
 h1,h2,h3,h4,h5 {
   font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-transform: capitalize;
 }
 
 p {
@@ -31,4 +42,8 @@ button {
 
 .receipt {
   display: none;
+  color: #222;
+}
+.card {
+  border: 0;
 }
