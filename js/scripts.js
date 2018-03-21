@@ -7,6 +7,8 @@ $(document).ready(function() {
     $(".user-name").text(userName);
     $(".user-address").text(userAddress);
     $(".user-item").text(userItem);
+    $(".receipt").show();
+    $("#formOne").hide();
     event.preventDefault();
   });
 });

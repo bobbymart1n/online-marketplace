@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
@@ -12,14 +13,15 @@
     <div class="container">
       <h1>Online Marketplace</h1>
       <form id="formOne">
-        <div class="btn-group">
+        <div class="form-group">
           <label for="name">Full Name:</label>
-          <input type="text" id="name" placeholder="Full Name">
+          <input type="text" class="form-control" id="name" placeholder="Full Name">
         </div>
-        <div class="btn-group">
+        <div class="form-group">
           <label for="address">Address:</label>
-          <input type="text" id="address" placeholder="Address">
+          <input type="text" class="form-control" id="address" placeholder="Address">
         </div>
+        <label for="item">What would you like to purchase?</label>
         <select class="form-control" id="item">
           <option value="Candy">Candy</option>
           <option value="Video Games">Video Games</option>
@@ -29,12 +31,14 @@
       </form>
       <div class="receipt">
         <div class="card">
-          <h1>Good Company.</h1>
+          <div class="card-header bg-primary">
+            <h1>Good Company.</h1>
+          </div>
           <div class="card-body">
-            <h3><span class="user-name"></span> Thank you for your purchase</h3>
+            <h3><span class="user-name"></span> thank you for your purchase</h3>
 
             <p>Thank you for your purchase of: <span class="user-item"></span></p>
-            <p >Your item will be shipped to: <span class="user-address"></span></p>
+            <p>your item will be shipped to: <span class="user-address"></span></p>
           </div>
         </div>
       </div>
