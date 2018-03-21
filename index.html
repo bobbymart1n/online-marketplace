@@ -9,6 +9,37 @@
     <title>Online Marketplace</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Online Marketplace</h1>
+      <form id="formOne">
 
+        <select class="form-control" id="item">
+          <option value="Candy">Candy</option>
+          <option value="Video Games">Video Games</option>
+          <option value="Blu Ray">Blu Ray</option>
+        </select>
+
+        <div class="btn-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" placeholder="Full Name">
+        </div>
+        <div class="btn-group">
+          <label for="address">Address:</label>
+          <input type="text" id="address" placeholder="Address">
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <div class="receipt">
+        <div class="card">
+          <h1>Good Company.</h1>
+          <div class="card-body">
+            <h3><span class="user-name"></span> Thank you for your purchase</h3>
+
+            <p>Thank you for your purchase of: <span class="user-item"></span></p>
+            <p >Your item will be shipped to: <span class="user-address"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
